@@ -6,8 +6,10 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.utils.Logger;
 
 public class PokemonProject extends Game {
+
 	private SpriteBatch batch;
 	private BitmapFont font;
 
@@ -22,6 +24,7 @@ public class PokemonProject extends Game {
 	public void dispose() {
 		batch.dispose();
 		font.dispose();
+		Gdx.app.exit();
 	}
 
 	@Override
@@ -29,7 +32,10 @@ public class PokemonProject extends Game {
 		Gdx.gl.glClearColor(1, 1, 1, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-		batch.begin();
+        System.out.println("Width: " + Gdx.graphics.getWidth());
+        System.out.println("Height: " + Gdx.graphics.getHeight());
+
+        batch.begin();
 		font.draw(batch, "Hello World", 200, 200);
 		batch.end();
 	}
