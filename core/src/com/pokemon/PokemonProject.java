@@ -10,6 +10,8 @@ import com.badlogic.gdx.utils.Logger;
 
 public class PokemonProject extends Game {
 
+	public final static int idioma = 7;
+
 	private SpriteBatch batch;
 	private BitmapFont font;
 

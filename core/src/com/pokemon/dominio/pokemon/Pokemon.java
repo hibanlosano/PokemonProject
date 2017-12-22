@@ -6,7 +6,7 @@ public class Pokemon {
     private Naturaleza naturaleza;
 
     public Pokemon() {
-        this.naturaleza = Naturaleza.generarNaturaleza();
+        //this.naturaleza = Naturaleza.generarNaturaleza();
     }
 
 }

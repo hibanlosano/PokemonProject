@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Naturaleza {
-
+/*
     private final static List<Naturaleza> naturalezas = new ArrayList<Naturaleza>() {{
         add(new Naturaleza("ACTIVA", new Estadisticas(0, 0, -1, 0, 0, 1)));
         add(new Naturaleza("HURAÑA", new Estadisticas(0, 1, -1, 0, 0, 0)));
@@ -33,27 +33,31 @@ public class Naturaleza {
         add(new Naturaleza("ACTIVA", new Estadisticas(0, 0, 0, 0, 0, 0)));
         add(new Naturaleza("GROSERA", new Estadisticas(0, 0, 0, 0, 1, -1)));
     }};
-
-    public static Naturaleza generarNaturaleza() {
-        Random random = new Random();
-        int index = random.nextInt(naturalezas.size());
-        return naturalezas.get(index);
-    }
+*/
 
     private String nombre;
-    private Estadisticas estadisticas;
+    private int aumentado, disminuido;
 
-    private Naturaleza(String nombre, Estadisticas estadisticas) {
+    public Naturaleza(String nombre, int aumentado, int disminudo) {
         this.nombre = nombre;
-        this.estadisticas = estadisticas;
+        this.aumentado = aumentado;
+        this.disminuido = disminudo;
     }
 
     public String getNombre() {
         return nombre;
     }
-    public Estadisticas getEstadisticas() {
-        return estadisticas;
+    public int getAumentado() {
+        return aumentado;
+    }
+    public int getDisminuido() {
+        return disminuido;
     }
 
+    @Override
+    public String toString() {
+        String ret = "Naturaleza: " + this.nombre;
+        return ret;
+    }
 
 }

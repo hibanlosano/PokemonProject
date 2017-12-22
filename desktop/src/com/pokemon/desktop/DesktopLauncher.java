@@ -3,14 +3,11 @@ package com.pokemon.desktop;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.pokemon.PokemonProject;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
 
-import com.pokemon.dataAccess.Test;
-import org.sqlite.SQLiteDataSource;
-import org.sqlite.SQLiteException;
+import com.pokemon.dataAccess.NaturalezaDAO;
+import com.pokemon.recursos.SysVars;
+
+import java.util.Map;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
@@ -20,9 +17,8 @@ public class DesktopLauncher {
 		config.width = 480;
 		config.height = 320;
 
-        Test app = new Test();
-        app.selectAll();
-
+		NaturalezaDAO.getListaNaturalezas();
+		System.out.println(SysVars.getNombreStat(1));
 		new LwjglApplication(new PokemonProject(), config);
 	}
 }
