@@ -1,0 +1,12 @@
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (1, 5, 'Très tendre');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (1, 9, 'Very Soft');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (2, 5, 'Tendre');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (2, 9, 'Soft');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (3, 5, 'Ferme');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (3, 9, 'Hard');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (4, 5, 'Très ferme');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (4, 9, 'Very Hard');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (5, 5, 'Super ferme');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (5, 9, 'Super Hard');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (3, 10, 'Tvrdá');
+INSERT INTO main.berry_firmness_names (berry_firmness_id, local_language_id, name) VALUES (2, 10, 'Měkká');

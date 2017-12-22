@@ -1,0 +1,10 @@
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (1, 'level-up');
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (2, 'egg');
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (3, 'tutor');
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (4, 'machine');
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (5, 'stadium-surfing-pikachu');
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (6, 'light-ball-egg');
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (7, 'colosseum-purification');
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (8, 'xd-shadow');
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (9, 'xd-purification');
+INSERT INTO main.pokemon_move_methods (id, identifier) VALUES (10, 'form-change');

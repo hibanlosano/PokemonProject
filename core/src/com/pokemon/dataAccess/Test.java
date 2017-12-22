@@ -11,22 +11,23 @@ import java.sql.Statement;
  *
  * @author sqlitetutorial.net
  */
-public class SelectApp {
+public class Test {
 
     /**
      * Connect to the test.db database
      * @return the Connection object
      */
-    private DataSource dataSource = new sun.jdbc.odbc.ee.DataSource();
+
     private Connection connect() {
         // SQLite connection string
-        String url = "jdbc:sqlite:C://sqlite/db/test.db";
+        String url = "jdbc:sqlite:veekun-pokedex.sqlite";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
+        System.out.println("Conexión realizada");
         return conn;
     }
 
@@ -35,31 +36,21 @@ public class SelectApp {
      * select all rows in the warehouses table
      */
     public void selectAll(){
-        String sql = "SELECT id FROM main.abilities";
+        String sql = "SELECT * FROM abilities";
 
         try {
             Connection conn = this.connect();
-             Statement stmt  = conn.createStatement();
-             ResultSet rs    = stmt.executeQuery(sql);
+            Statement stmt  = conn.createStatement();
+            ResultSet rs    = stmt.executeQuery(sql);
 
-            // loop through the result set
-            while (rs.next()) {
-                System.out.println(rs.getInt("id") +  "\t" +
-                        rs.getString("name") + "\t" +
-                        rs.getDouble("capacity"));
+            if (rs.next()) {
+                System.out.println("hay datos");
+            } else {
+                System.out.println("no hay datos");
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-    }
-
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        SelectApp app = new SelectApp();
-        app.selectAll();
     }
 
 }

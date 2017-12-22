@@ -1,0 +1,10 @@
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (1, 'black');
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (2, 'blue');
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (3, 'brown');
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (4, 'gray');
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (5, 'green');
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (6, 'pink');
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (7, 'purple');
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (8, 'red');
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (9, 'white');
+INSERT INTO main.pokemon_colors (id, identifier) VALUES (10, 'yellow');

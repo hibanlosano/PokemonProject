@@ -1,0 +1,14 @@
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (1, NULL, 'national', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (2, 1, 'kanto', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (3, 2, 'original-johto', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (4, 3, 'hoenn', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (5, 4, 'original-sinnoh', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (6, 4, 'extended-sinnoh', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (7, 2, 'updated-johto', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (8, 5, 'original-unova', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (9, 5, 'updated-unova', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (11, NULL, 'conquest-gallery', 0);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (12, 6, 'kalos-central', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (13, 6, 'kalos-coastal', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (14, 6, 'kalos-mountain', 1);
+INSERT INTO main.pokedexes (id, region_id, identifier, is_main_series) VALUES (15, 3, 'updated-hoenn', 1);

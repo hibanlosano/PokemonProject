@@ -32,9 +32,6 @@ public class PokemonProject extends Game {
 		Gdx.gl.glClearColor(1, 1, 1, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-        System.out.println("Width: " + Gdx.graphics.getWidth());
-        System.out.println("Height: " + Gdx.graphics.getHeight());
-
         batch.begin();
 		font.draw(batch, "Hello World", 200, 200);
 		batch.end();

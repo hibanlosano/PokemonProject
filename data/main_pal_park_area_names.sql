@@ -1,0 +1,10 @@
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (1, 5, 'Forêt');
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (1, 9, 'Forest');
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (2, 5, 'Plaine');
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (2, 9, 'Field');
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (3, 5, 'Montagne');
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (3, 9, 'Mountain');
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (4, 5, 'Étang');
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (4, 9, 'Pond');
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (5, 5, 'Mer');
+INSERT INTO main.pal_park_area_names (pal_park_area_id, local_language_id, name) VALUES (5, 9, 'Sea');

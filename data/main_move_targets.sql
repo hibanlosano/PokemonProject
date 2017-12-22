@@ -1,0 +1,14 @@
+INSERT INTO main.move_targets (id, identifier) VALUES (1, 'specific-move');
+INSERT INTO main.move_targets (id, identifier) VALUES (2, 'selected-pokemon-me-first');
+INSERT INTO main.move_targets (id, identifier) VALUES (3, 'ally');
+INSERT INTO main.move_targets (id, identifier) VALUES (4, 'users-field');
+INSERT INTO main.move_targets (id, identifier) VALUES (5, 'user-or-ally');
+INSERT INTO main.move_targets (id, identifier) VALUES (6, 'opponents-field');
+INSERT INTO main.move_targets (id, identifier) VALUES (7, 'user');
+INSERT INTO main.move_targets (id, identifier) VALUES (8, 'random-opponent');
+INSERT INTO main.move_targets (id, identifier) VALUES (9, 'all-other-pokemon');
+INSERT INTO main.move_targets (id, identifier) VALUES (10, 'selected-pokemon');
+INSERT INTO main.move_targets (id, identifier) VALUES (11, 'all-opponents');
+INSERT INTO main.move_targets (id, identifier) VALUES (12, 'entire-field');
+INSERT INTO main.move_targets (id, identifier) VALUES (13, 'user-and-allies');
+INSERT INTO main.move_targets (id, identifier) VALUES (14, 'all-pokemon');

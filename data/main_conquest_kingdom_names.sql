@@ -1,0 +1,17 @@
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (1, 9, 'Aurora');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (2, 9, 'Ignis');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (3, 9, 'Fontaine');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (4, 9, 'Violight');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (5, 9, 'Greenleaf');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (6, 9, 'Nixtorm');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (7, 9, 'Pugilis');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (8, 9, 'Viperia');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (9, 9, 'Terrera');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (10, 9, 'Avia');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (11, 9, 'Illusio');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (12, 9, 'Chrysalia');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (13, 9, 'Cragspur');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (14, 9, 'Spectra');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (15, 9, 'Dragnor');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (16, 9, 'Yaksha');
+INSERT INTO main.conquest_kingdom_names (kingdom_id, local_language_id, name) VALUES (17, 9, 'Valora');

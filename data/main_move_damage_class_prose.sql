@@ -1,0 +1,15 @@
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (1, 1, 'へんか', 'ダメージない');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (1, 5, 'statut', 'Aucun dégât');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (1, 6, 'status', 'Kein Schaden');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (1, 9, 'status', 'No damage');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (2, 1, 'ぶつり', 'ぶつりのダメージ。こうげきとぼうぎょを行使する');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (2, 5, 'physique', 'Dégâts physique, influencés par l''Attaque et la Défense');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (2, 6, 'physich', 'Physischer Schaden, beeinflusst von Angriff und Verteidigung');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (2, 9, 'physical', 'Physical damage, controlled by Attack and Defense');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (3, 1, 'とくしゅ', 'とくしゅのダメージ。とくこうととくぼうを行使する');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (3, 5, 'spéciale', 'Dégâts spéciaux, influencés par l''Attaque Spéciale et la Défense Spéciale');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (3, 6, 'spezial', 'Spezieller Schaden, beeinflusst von Spezialangriff und Spezialverteidigung');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (3, 9, 'special', 'Special damage, controlled by Special Attack and Special Defense');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (1, 10, 'nezraňující', 'Nezraňuje');
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (3, 10, 'speciální', NULL);
+INSERT INTO main.move_damage_class_prose (move_damage_class_id, local_language_id, name, description) VALUES (2, 10, 'fyzické', 'Fyzické zranění, řídí se Útokem a Obranou');

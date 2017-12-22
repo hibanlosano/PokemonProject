@@ -8,7 +8,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import com.pokemon.dataAccess.Test;
 import org.sqlite.SQLiteDataSource;
+import org.sqlite.SQLiteException;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
@@ -18,28 +20,8 @@ public class DesktopLauncher {
 		config.width = 480;
 		config.height = 320;
 
-
-		/* */
-		SQLiteDataSource ds = new SQLiteDataSource();
-        ds.setDatabaseName(":memory:");
-        try (Connection conn = ds.getConnection()) {
-            System.out.println("Connected.");
-            String sql =
-                    "SELECT COUNT(*) AS n FROM \"sqlite_master\"";
-            try (
-                    Statement s = conn.createStatement();
-                    ResultSet rs = s.executeQuery(sql)) {
-                rs.next();
-                System.out.printf(
-                        "The \"sqlite_master\" table contains %d row(s).%n",
-                        rs.getInt(1));
-            }
-        } catch (SQLException e) {
-            e.printStackTrace(System.err);
-        }
-
-		/* */
-
+        Test app = new Test();
+        app.selectAll();
 
 		new LwjglApplication(new PokemonProject(), config);
 	}

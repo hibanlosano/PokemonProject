@@ -1,0 +1,12 @@
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (1, 5, 'Montée de niveau');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (1, 6, 'Levelaufstieg');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (1, 9, 'Level up');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (2, 5, 'Échange');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (2, 6, 'Tausch');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (2, 9, 'Trade');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (3, 5, 'Utilisation d''un objet');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (3, 6, 'Gegenstand nutzen');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (3, 9, 'Use item');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (4, 5, 'Place dans l''équipe et une Poké Ball');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (4, 6, 'Platz im Team und ein Pokéball');
+INSERT INTO main.evolution_trigger_prose (evolution_trigger_id, local_language_id, name) VALUES (4, 9, 'Shed');

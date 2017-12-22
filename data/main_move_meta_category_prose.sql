@@ -1,0 +1,14 @@
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (0, 9, 'Inflicts damage');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (1, 9, 'No damage; inflicts status ailment');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (2, 9, 'No damage; lowers target''s stats or raises user''s stats');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (3, 9, 'No damage; heals the user');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (4, 9, 'Inflicts damage; inflicts status ailment');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (5, 9, 'No damage; inflicts status ailment; raises target''s stats');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (6, 9, 'Inflicts damage; lowers target''s stats');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (7, 9, 'Inflicts damage; raises user''s stats');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (8, 9, 'Inflicts damage; absorbs damage done to heal the user');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (9, 9, 'One-hit KO');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (10, 9, 'Effect on the whole field');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (11, 9, 'Effect on one side of the field');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (12, 9, 'Forces target to switch out');
+INSERT INTO main.move_meta_category_prose (move_meta_category_id, local_language_id, description) VALUES (13, 9, 'Unique effect');

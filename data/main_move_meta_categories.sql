@@ -1,0 +1,14 @@
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (0, 'damage');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (1, 'ailment');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (2, 'net-good-stats');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (3, 'heal');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (4, 'damage+ailment');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (5, 'swagger');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (6, 'damage+lower');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (7, 'damage+raise');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (8, 'damage+heal');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (9, 'ohko');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (10, 'whole-field-effect');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (11, 'field-effect');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (12, 'force-switch');
+INSERT INTO main.move_meta_categories (id, identifier) VALUES (13, 'unique');
