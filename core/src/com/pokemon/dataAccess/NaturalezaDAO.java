@@ -19,9 +19,6 @@ public class NaturalezaDAO {
             + " join nature_names on (natures.id = nature_names.nature_id)"
             + " where local_language_id = " + SysVars.ESPAÑOL;
 
-
-    public static List<Naturaleza> naturalezas = getListaNaturalezas();
-
     public static List<Naturaleza> getListaNaturalezas(){
         List<Naturaleza> naturalezas = new ArrayList<Naturaleza>();
         try {

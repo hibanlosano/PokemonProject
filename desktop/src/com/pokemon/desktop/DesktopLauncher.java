@@ -17,8 +17,6 @@ public class DesktopLauncher {
 		config.width = 480;
 		config.height = 320;
 
-		NaturalezaDAO.getListaNaturalezas();
-		System.out.println(SysVars.getNombreStat(1));
 		new LwjglApplication(new PokemonProject(), config);
 	}
 }
